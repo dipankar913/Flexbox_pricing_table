@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:wght@500&display=swap');
+
+.price-container{
+    justify-content: center;
+    display: flex;
+    margin:auto; 
+    width:80%;
+    margin-top: 15%;
+}
+
+.pricing-plan{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(239, 239, 241);
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.plan-title{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.plan-price{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.plan-features{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 3px;
+}
+.plan-button{
+    margin-bottom: 20px;
+    background-color: orange;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 700px) {
+   .price-container{
+    display: block;
+    margin-top: 20%;
+   }
+   .plan-price{
+    font-size: 30px;
+    }
+  }
